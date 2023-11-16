@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khushi - Student Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="C:\Users\khush\OneDrive\Documents\Repos\Portfolio-Website\styles.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Khushi's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills & Achievements</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection" id="about">
+        <div class="leftSection">
+          <h2>About Me</h2>
+          <p>
+            Hi, I'm <span class="purple">Khushi</span>, an aspiring Software
+            Developer passionate about turning ideas into efficient solutions.
+            Currently studying Computer Science and Engineering, I specialize in
+            JavaScript and Python, with a focus on web development and data
+            science. Let's create something amazing together!
+          </p>
+          <span id="element"></span>
+          <div class="buttons">
+            <a
+              href="https://drive.google.com/file/d/1j3IwikRS5_1b9RSFy4R27Z5FC_OzMZyB/view?usp=sharing"
+              target="_blank"
+              class="btn"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="bg.png" alt="Background Image" />
+        </div>
+      </section>
+      <section class="secondSection" id="skills">
+        <h2>Skills & Achievements</h2>
+        <ul>
+            <li><strong>Languages:</strong> JavaScript, Python, Java, C++</li>
+            <li>
+                <strong>Web Development:</strong> HTML, CSS, React (in progress)
+            </li>
+            <li>
+                <strong>Data Science:</strong> Python, Pandas, NumPy
+            </li>
+            <li>
+                <strong>Problem Solving:<br></strong>
+                LeetCode: 200+ problems solved </br>
+                CodeChef: Rating: 1567, 3-Star
+            </li>
+            <li>
+                <strong>Google Girl Hackathon 23:</strong> Cleared 3 Rounds and reached the Ideathon Round. 
+            </li>
+            <li>
+                <strong>OODP HACK 23:</strong> Secured top 30 position
+            </li>
+            <li>
+                <strong>Academic Achievements:</strong> CGPA - 1st Sem: 9.32, 2nd Sem: 9.56
+            </li>
+        </ul>
+    </section>
+    
+      <section class="thirdSection" id="projects">
+        <h2>Projects</h2>
+        <div class="project" style="text-align: center">
+          <h3>Tic Tac Toe in C</h3>
+          <p>
+            An implementation of the classic Tic Tac Toe game in the C
+            programming language. This project showcases my understanding of
+            fundamental programming concepts.
+          </p>
+          <img src="ttt.jpeg" alt="Tic Tac Toe Image" />
+        </div>
+        <div class="project" style="text-align: center">
+          <h3>Face Recognition with Login System in Python</h3>
+          <p>
+            Developed a face recognition system with a secure login mechanism
+            using Python. This project demonstrates my skills in image
+            processing and security.
+          </p>
+          <img
+            src="face.webp"
+            alt="Face Recognition Image"
+            style="width: 40%"
+          />
+        </div>
+        <div class="project" style="text-align: center">
+          <h3>Context Switching in Operating System (Linux)</h3>
+          <p>
+            Implemented context switching in the Linux operating system. This
+            project highlights my understanding of operating system internals.
+          </p>
+        </div>
+        <div class="project" style="text-align: center">
+          <h3>Proshop - MERN Stack</h3>
+          <p>
+            Created Proshop, an online shopping application using the MERN stack
+            (MongoDB, Express.js, React, Node.js). This project demonstrates my
+            full-stack development skills.
+          </p>
+        </div>
+        <div class="project" style="text-align: center">
+          <h3>Uber Eats - Online Food Delivery System</h3>
+          <p>
+            Developed an online food delivery system using a queue application
+            based on linked lists. This project showcases my data structures and
+            application development skills.
+          </p>
+          <img src="uber.jpeg" alt="Uber Eats Image" style="width: 50%" />
+        </div>
+      </section>
+      <section class="contactSection" id="contact">
+        <h2>Contact Me</h2>
+        <div class="contactContent">
+          <div class="buttons">
+            <a href="mailto:patwari.khushi28@gmail.com" target="_blank"class="btn"
+            > Email Me</a>
+            <a href="https://github.com/khushipatwari06" target="_blank"class="btn"
+            > Github</a>
+            <a href="https://www.linkedin.com/in/khushi-patwari-789ab9273/" target="_blank" class="btn"
+            > LinkedIn</a>
+          </div>
+          <div class="contactImage">
+            <img src="khushipatwari.jpeg" alt="Khushi Patwari" />
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Problem Solver", "ContinuousLearner"],
+        typeSpeed: 50,
+        backSpeed: 30,
+        backDelay: 1000,
+        startDelay: 500,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
